@@ -1,0 +1,70 @@
+{
+  "version": "14.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "RedmineCdkStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "RedmineCdkStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/RedmineCdkStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/tmp/jsii-kernel-CdbnXj/node_modules/@aws-cdk/core/lib/private/metadata-resource.js:22:30)",
+              "/tmp/jsii-kernel-CdbnXj/node_modules/@aws-cdk/core/lib/private/synthesis.js:139:9",
+              "visit (/tmp/jsii-kernel-CdbnXj/node_modules/@aws-cdk/core/lib/private/synthesis.js:200:9)",
+              "visit (/tmp/jsii-kernel-CdbnXj/node_modules/@aws-cdk/core/lib/private/synthesis.js:197:9)",
+              "injectMetadataResources (/tmp/jsii-kernel-CdbnXj/node_modules/@aws-cdk/core/lib/private/synthesis.js:128:5)",
+              "Object.synthesize (/tmp/jsii-kernel-CdbnXj/node_modules/@aws-cdk/core/lib/private/synthesis.js:17:5)",
+              "App.synth (/tmp/jsii-kernel-CdbnXj/node_modules/@aws-cdk/core/lib/stage.js:100:41)",
+              "/tmp/tmpf7rdutcr/lib/program.js:8183:134",
+              "Kernel._wrapSandboxCode (/tmp/tmpf7rdutcr/lib/program.js:8795:24)",
+              "/tmp/tmpf7rdutcr/lib/program.js:8183:107",
+              "Kernel._ensureSync (/tmp/tmpf7rdutcr/lib/program.js:8776:28)",
+              "Kernel.invoke (/tmp/tmpf7rdutcr/lib/program.js:8183:34)",
+              "KernelHost.processRequest (/tmp/tmpf7rdutcr/lib/program.js:9692:36)",
+              "KernelHost.run (/tmp/tmpf7rdutcr/lib/program.js:9655:22)",
+              "Immediate._onImmediate (/tmp/tmpf7rdutcr/lib/program.js:9656:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ],
+        "/RedmineCdkStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/tmp/jsii-kernel-CdbnXj/node_modules/@aws-cdk/core/lib/private/metadata-resource.js:30:35)",
+              "/tmp/jsii-kernel-CdbnXj/node_modules/@aws-cdk/core/lib/private/synthesis.js:139:9",
+              "visit (/tmp/jsii-kernel-CdbnXj/node_modules/@aws-cdk/core/lib/private/synthesis.js:200:9)",
+              "visit (/tmp/jsii-kernel-CdbnXj/node_modules/@aws-cdk/core/lib/private/synthesis.js:197:9)",
+              "injectMetadataResources (/tmp/jsii-kernel-CdbnXj/node_modules/@aws-cdk/core/lib/private/synthesis.js:128:5)",
+              "Object.synthesize (/tmp/jsii-kernel-CdbnXj/node_modules/@aws-cdk/core/lib/private/synthesis.js:17:5)",
+              "App.synth (/tmp/jsii-kernel-CdbnXj/node_modules/@aws-cdk/core/lib/stage.js:100:41)",
+              "/tmp/tmpf7rdutcr/lib/program.js:8183:134",
+              "Kernel._wrapSandboxCode (/tmp/tmpf7rdutcr/lib/program.js:8795:24)",
+              "/tmp/tmpf7rdutcr/lib/program.js:8183:107",
+              "Kernel._ensureSync (/tmp/tmpf7rdutcr/lib/program.js:8776:28)",
+              "Kernel.invoke (/tmp/tmpf7rdutcr/lib/program.js:8183:34)",
+              "KernelHost.processRequest (/tmp/tmpf7rdutcr/lib/program.js:9692:36)",
+              "KernelHost.run (/tmp/tmpf7rdutcr/lib/program.js:9655:22)",
+              "Immediate._onImmediate (/tmp/tmpf7rdutcr/lib/program.js:9656:46)",
+              "processImmediate (internal/timers.js:461:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "RedmineCdkStack"
+    }
+  }
+}

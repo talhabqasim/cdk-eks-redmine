@@ -1,0 +1,6 @@
+README.md
+redmine_cdk/redmine_cdk.egg-info/PKG-INFO
+redmine_cdk/redmine_cdk.egg-info/SOURCES.txt
+redmine_cdk/redmine_cdk.egg-info/dependency_links.txt
+redmine_cdk/redmine_cdk.egg-info/requires.txt
+redmine_cdk/redmine_cdk.egg-info/top_level.txt

@@ -1,3 +1,12 @@
+Once the environment is up the redmine can be install via,
+
+eks-manifests 
+or 
+helm charts
+
+https://bitnami.com/stack/redmine/helm
+
+
 
 # Welcome to your CDK Python project!
 

@@ -2,7 +2,7 @@ Once the environment is up the redmine can be install via,
 
 eks-manifests 
 or 
-helm charts
+helm charts (for the configuration with Helm, the values file will be pulled first in order to change the required parameters)
 
 https://bitnami.com/stack/redmine/helm
 
